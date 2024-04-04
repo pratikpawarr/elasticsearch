@@ -37,8 +37,8 @@ hostAliases: []
 #  - "foo.local"
 #  - "bar.local"
 
-image: "docker.elastic.co/kibana/kibana"
-imageTag: "8.5.1"
+image: "sres.web.boeing.com:5000/kibana/kibana"
+imageTag: "sha256__dd4cd0943aae9b4b881fa578eca46015af399a309c0d3b5dc86a30adc932f434"
 imagePullPolicy: "IfNotPresent"
 
 # additionals labels
