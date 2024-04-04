@@ -75,8 +75,8 @@ hostAliases: []
 #  - "foo.local"
 #  - "bar.local"
 
-image: "docker.elastic.co/elasticsearch/elasticsearch"
-imageTag: "8.5.1"
+image: "sres.web.boeing.com:5000/elasticsearch/elasticsearch"
+imageTag: "8.8.1-amd64"
 imagePullPolicy: "IfNotPresent"
 
 podAnnotations: {}
